@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div.top{
+	width: 70%;
+	height: 40px;
+	background-color: darkblue;
+	margin: 0 auto;
+}
+.top a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 30%;
+}
+
+.stop{
+	height: 400px;
+	width: 25%;
+	background-image: url(img/green.jpg);
+	background-repeat:no-repeat;
+	margin-left: 22%;
+	font-size: 38px;
+	text-align: center;
+	float: left;
+}
+.stop a, .count a{
+	height: 400px;
+	width: 250px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.middle{
+	height: 410px;
+	width: 7px;
+	background-color: dimgrey;
+	float: left;
+	border: 3px solid black;
+	border-radius: 7px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.count{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-image:url(img/red.jpg);
+	background-repeat:no-repeat;
+	font-size: 38px;
+	text-align: center;
+	margin-left: 10%;
+	
+}
+.bottom{
+	clear: both;
+	width: 70%;
+	height: 40px;
+	background-color: darkblue;
+	margin: 0 auto;
+	
+}
+
